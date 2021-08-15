@@ -1,0 +1,38 @@
+
+:root {
+	--size : 30px;
+	--block-width : calc(var(--size) * 11);
+}
+body {
+	margin:0;
+	padding : 0;
+	height: 100vh;
+	display: flex;
+	background: #eee;
+	align-items: center;
+	
+}
+
+body #block {
+	width: var(--block-width);
+	/* width: 100%; */
+	padding : 5px 5px;
+	/* width: calc(54px * 11); */
+	margin: auto;
+	/* background: peachpuff; */
+	background: transparent;
+
+}
+
+.box {
+	/* margin : 2px; */
+	background-color: #aaa;
+	width: var(--size);
+	height: var(--size);
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
